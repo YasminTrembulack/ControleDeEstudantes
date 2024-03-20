@@ -1,7 +1,10 @@
-.caixa-login{
 
-    border: 1px solid grey;
-    height:  700px;
-    max-width: 700px;
-    margin: 30px;
+
+.caixa-cadastro{
+
+    border: 1px solid rgb(0, 0, 0);
+    
+    max-width: 500px; margin: 30px;
+    background-image: linear-gradient(to bottom,rgba(255, 133, 239, 0.8), rgba(214, 126, 255, 0.8), rgba(122, 202, 255, 0.8)); 
+    border-radius: 20px; 
 }
