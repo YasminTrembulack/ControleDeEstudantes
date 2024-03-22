@@ -27,7 +27,6 @@ main{
 footer{
     height: 0vh;
 }
-
 .controle{
     background-image: linear-gradient(to right,rgb(255, 32, 225), rgb(180, 20, 255), rgb(0, 132, 255)); 
     background-clip: text;
@@ -39,4 +38,25 @@ footer{
 .cadas{
     color: #c7c6c6e5;
 }
+.borda-aluno{
+    border-right: 1px solid grey;
+}
+.after {
+    position: relative;
+}
+.after::after {
+    content: "";
+    height: 100%;
+    width: 2px;
 
+    background-color: rgb(255, 255, 255);
+
+    position: absolute;
+    left: 105%;
+    top: 0;
+}
+@media (max-width: 991px){
+    .after::after {
+        background-color: black;
+    }
+}

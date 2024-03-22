@@ -1,0 +1,8 @@
+.caixa-flex{
+    justify-content: flex-start;
+}
+@media (max-width: 966px){
+    .caixa-flex{
+        justify-content: center;
+    }
+}
