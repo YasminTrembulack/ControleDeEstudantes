@@ -4,8 +4,8 @@ module.exports = {
     },
     async pagCadastroAlunoGet(req, res){
         res.render('../views/aluno');
-    },
-    async pagCadastroSalaGet(req, res){
-        res.render('../views/sala');
     }
+    // async pagCadastroSalaGet(req, res){
+    //     res.render('../views/sala');
+    // }
 }

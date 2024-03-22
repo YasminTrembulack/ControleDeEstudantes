@@ -43,19 +43,21 @@
         
       <div class="caixa-cadastro container-fluid d-flex flex-column align-items-center justify-content-center flex-wrap" style="height: 450px;">
         <h2 class="pb-3" style="color: black;">Cadastrar nova sala </h2>
+        <form action="/cadastro-sala" method="post">
 
-        <div class="form-floating mb-4  ">
-          <input type="text" class="form-control" id="nome-sala" style="width: 400px;" placeholder="Desinvolvimento de sistems">
-          <label for="floatingInput">Nome</label>
-        </div>
-        <div class="form-floating">
-          <input type="number" class="form-control" id="capacidade-sala" style="width: 400px;" placeholder="20">
-          <label for="floatingPassword">Capacidade</label>
-        </div>
-        <div class="container-fluid d-flex justify-content-start ">
-          <input class="btn btn-outline-dark mt-4 ms-4" style=" width: 200px; font-weight: 700;" type="submit" value="Cadastrar">
-        </div>
+          <div class="form-floating mb-4  ">
+            <input type="text" class="form-control" name="nome" style="width: 400px;" placeholder="Desinvolvimento de sistems" required>
+            <label for="floatingInput">Nome</label>
+          </div>
+          <div class="form-floating">
+            <input type="number" class="form-control" name="capacidade" style="width: 400px;" placeholder="20" required>
+            <label for="floatingPassword">Capacidade</label>
+          </div>
+          
+          <button class="btn btn-outline-dark mt-4 " style=" width: 200px; font-weight: 700;" type="post"> Cadastrar</button>
+          
 
+        </form>
       </div>
 
     </main>
